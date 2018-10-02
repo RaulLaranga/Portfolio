@@ -201,7 +201,8 @@ main {
 .job {
   background: #515151;
   padding: 0.5rem;
-  border-bottom: #2fed25 5px solid; }
+  border-bottom: #2fed25 5px solid;
+  text-align: center; }
 
 .footer,
 .push {
