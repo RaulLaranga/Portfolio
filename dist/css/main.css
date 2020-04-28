@@ -4,13 +4,13 @@
   right: 7%;
   top: 5%npm;
   cursor: pointer;
-  transition: all 0.6s ease-out; }
+  transition: all 0.7s ease-out; }
   .menu-btn .btn-line {
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
     background: #fff;
-    transition: all 0.6s ease-out; }
+    transition: all 0.7s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
     .menu-btn.close .btn-line:nth-child(1) {
@@ -46,18 +46,18 @@
     background: #252525;
     list-style: none;
     transform: translate3d(0, -100%, 0);
-    transition: all 0.6s ease-out; }
+    transition: all 0.7s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-side {
     width: 50%;
     transform: translate3d(0, 100%, 0);
-    transition: all 0.6s ease-out; }
+    transition: all 0.7s ease-out; }
     .menu-side.show {
       transform: translate3d(0, 0, 0); }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
-    transition: all 0.6s ease-out; }
+    transition: all 0.7s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
@@ -73,7 +73,7 @@
     font-weight: 300;
     color: #fff;
     text-decoration: none;
-    transition: all 0.6s ease-out; }
+    transition: all 0.7s ease-out; }
     .menu .nav-link:hover {
       color: #2fed25; }
 
@@ -165,7 +165,7 @@ main {
       padding: 0.6rem; }
       main .icons a:hover {
         color: #2fed25;
-        transition: all 0.6s ease-out; }
+        transition: all 0.7s ease-out; }
   main#home {
     overflow: hidden; }
     main#home h1 {
@@ -237,7 +237,8 @@ main {
 
 @media screen and (min-width: 1171px) {
   #home .icons {
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    padding-top: 2%; }
   #home h1 {
     font-size: 4.0rem; }
   .gecko-img1 {
@@ -289,7 +290,7 @@ main {
     min-height: 0; }
     ul.menu-nav.show,
     div.menu-side.show {
-      transform: translate3d(0, 0, 0); }
+      transform: translate3d(0, 0, 1); }
   .manu-nav {
     width: 100%;
     height: 100hv;
@@ -323,15 +324,16 @@ main {
   #home .icons {
     font-size: 1rem; }
   #home h1 {
-    font-size: 4.1rem; }
+    font-size: 4.4rem; }
   .gecko-img1 {
     position: relative;
     bottom: 0;
     width: 100%;
     height: 60px;
-    margin-top: 20%;
+    margin-top: 35%;
+    padding-top: 90%;
     padding-left: 82%;
-    padding-bottom: 11%;
+    padding-bottom: 1%;
     right: 0;
     bottom: 0; }
     .gecko-img1 svg {
@@ -358,7 +360,7 @@ main {
   -side {
     width: 50%;
     transform: translate3d(0, 100%, 0);
-    transition: all 0.6s ease-out; }
+    transition: all 0.7s ease-out; }
     -side.show {
       transform: translate3d(0, 0, 0); }
   .gecko-img1 {
@@ -366,6 +368,7 @@ main {
     bottom: 0;
     width: 100%;
     height: 60px;
+    padding-top: 15%;
     padding-left: 85%;
     padding-bottom: 1%;
     right: 0;
