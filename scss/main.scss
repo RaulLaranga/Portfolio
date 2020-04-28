@@ -144,11 +144,12 @@ main {
 //Sticky Footer
 .footer,
 .push {
-    height: 1px;
+    height: 2px;
 }
 
 .footer {
-    line-height: 50px;
+   
+    line-height: 40px;
 }
 
 
@@ -159,6 +160,22 @@ main {
 .main-footer {
     text-align: center;
     padding: 0.1rem;
+    background: darken($primary-color, 4);
+    color: $secondary-color;
+    height: 40px;
+
+
+
+    .img {
+        height: 10px;
+        width: 10px;
+    }
+}
+
+#main-footer{
+    text-align: center;
+    padding: 0.1rem;
+    margin-top: 17%;
     background: darken($primary-color, 4);
     color: $secondary-color;
     height: 40px;
@@ -182,8 +199,9 @@ main {
     bottom: 0;
 
     svg {
-        width: 120px;
-        height: 120px;
+        margin-top: 10%;
+        width: 100px;
+        height: 100px;
         fill: $secondary-color;
 
 

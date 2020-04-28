@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "portfolio website",
   "main": "index.js",
+  
   "scripts": {
     "deploy": "gh-pages -d dist",
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
@@ -11,10 +12,10 @@
     "portfolio"
   ],
   "author": "Raul",
-  "homepage": "https://RaulLaranga.github.io/portfolio",
+  "homepage": "https://RaulLaranga.github.io/Portfolio",
   "license": "MIT",
   "dependencies": {
-    "gh-pages": "^1.2.0",
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.14.0"
   }
 }
