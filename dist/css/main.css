@@ -221,14 +221,15 @@ main {
     height: 10px;
     width: 10px; }
 
-#main-footer {
+.main-footer {
+  padding-top: 1%;
   text-align: center;
   padding: 0.1rem;
-  margin-top: 17%;
+  margin-top: 30%;
   background: #3a3a3a;
   color: #2fed25;
   height: 40px; }
-  #main-footer .img {
+  .main-footer .img {
     height: 10px;
     width: 10px; }
 
@@ -258,13 +259,14 @@ main {
     bottom: 0;
     width: 100%;
     height: 150px;
-    padding-left: 82%;
+    padding-left: 90%;
     padding-bottom: 1px;
+    padding-top: 8%;
     right: 0;
     bottom: 0; }
     .gecko-img1 svg {
-      width: 150px;
-      height: 150px;
+      width: 120px;
+      height: 120px;
       fill: #2fed25; } }
 
 @media screen and (min-width: 769px) and (max-width: 1170x) {
@@ -284,6 +286,17 @@ main {
   .icons {
     padding-top: 5%;
     margin-top: 1rem; } }
+
+#main-footer {
+  text-align: center;
+  padding: 0.1rem;
+  margin-top: 10%;
+  background: #3a3a3a;
+  color: #2fed25;
+  height: 40px; }
+  #main-footer .img {
+    height: 20px;
+    width: 20px; }
 
 @media screen and (max-width: 768px) {
   main {
@@ -323,7 +336,7 @@ main {
     bottom: 0;
     width: 100%;
     height: 60px;
-    padding-left: 80%;
+    padding-left: 86%;
     padding-bottom: 1%;
     right: 0;
     bottom: 0; }
